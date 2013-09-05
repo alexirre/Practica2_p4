@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="description" content="Ejemplo de HTML5" />
+  <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+  <title>Formulario</title>
+ </head>
+ <body>
+  <header>
+   <h1>Agregar empleado</h1>
+  </header>
+  <div>
+   <form action="datos.html" method="POST">
+    <table width="50%" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <fieldset>
+     <legend><h1>Laboral</h1></legend>
+       </br>
+       <label for="txtCodigo">C&oacute;digo*</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtCodigo" name="Codigo" />
+       <br/>
+       <br/>
+       <label for="txtFechaIngreso">Fecha de Ingreso</label><br/>
+       <input type="text" size="20" maxlength="100" id="txtFechaIngreso" name="Fecha de Ingreso" />
+       </br>
+       </br>
+       <label for="txtSeguroSocial">Seguro Social*</label><br/>
+       <select name="segurosocial">
+        <option selected="selected"/></option>
+        <option>IMSS</option>
+        <option>ISSSTE</option>
+        <option>Cruz Roja</option>
+       </select>
+       </br>
+       </br>
+       <label for="txtNumero">N&uacute;mero</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtNumero" name="Numero" />
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+    <br/>
+ 
+    <table width="50%" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <fieldset>
+     <legend><h1>Personal</h1></legend>
+       </br>
+       <label for="txtNombre">Nombre*</label><br/>
+       <input type="text" size="70" maxlength="80" id="txtNombre" name="Nombre" />
+       <br/>
+       <br/>
+       <label for="txtApellidoPaterno">Apellido Paterno*</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtApellidoPaterno" name="ApellidoPaterno" />
+       <br/>
+       <br/> 
+       <label for="txtApellidoMaterno">Apellido Materno*</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtApellidoMaterno" name="ApellidoMaterno" />
+       <br/>
+       <br/> 
+       <label for="txtFoto">Foto</label><br/>
+       <input id="imagen" name="imagen" type="file" accept="image/jpg"/>
+       <br/>
+       <br/>
+       <label>Sexo*</label><br/>
+       <input type="radio" name="sexo id="sexoM" value="M" checked="checked/>
+       <label for="sexoM">Masculino</label><br/>
+       <input type="radio" name="sexo id="sexoF" value="F"/>
+       <label for="sexoF">Femenino</label><br/>
+       <br/>
+       <label for="txtEstadoCivil">Estado Civil</label><br/>
+       <select name="estadocivil">
+        <option selected="selected"/></option>
+        <option>Soltero</option>
+        <option>Casado</option>
+        <option>Viudo</option>
+       </select>
+       <br/>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+    <br/>
+    <table width="50%" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <fieldset>
+      <legend><h1>Nacimiento</h1></legend>
+       </br>
+       <label for="txtFecha">Fecha</label><br/>
+       <input type="text" size="20" maxlength="50" id="txtFecha" name="Fecha" />
+       <br/>
+       <br/>
+       <label for="txtPais">Pa&iacute;s</label><br/>
+       <select name="pais">
+        <option selected="selected"/></option>
+        <option>Alemania</option>
+        <option>Brasil</option>
+        <option>China</option>
+        <option>Estados Unidos</option>
+        <option>Inglaterra</option>
+        <option>Japon</option>
+        <option>Mexico</option>
+       </select>
+       <br/>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+    <br/>
+    <table width="50%" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+ 
+    <fieldset>
+     <legend><h1>Contacto</h1></legend>
+       </br>
+       <label for="txtTitulo">T&iacute;tulo</label><br/>
+       <input type="text" size="10" maxlength="50" id="txtTitulo" name="Titulo" />
+       <br/>
+       <br/>
+       <label for="txtCURP">CURP</label><br/>
+       <input type="text" size="25" maxlength="50" id="txtCURP" name="Curp" />
+       <br/>
+       <br/>
+       <label for="txtRFC">RFC</label><br/>
+       <input type="text" size="25" maxlength="50" id="txtRFC" name="Rfc" />
+       <br/>
+       <br/>
+       <label for="txtTelefono">Tel&eacute;fono</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtTelefono" name="Telefono" />
+       <br/>
+       <br/>
+       <label for="txtCelular">Celular</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtCelular" name="Celular" />
+       <br/>
+       <br/>
+       <label for="txtDomicilio">Domicilio</label><br/>
+       <input type="text" size="80" maxlength="50" id="txtDomicilio" name="Domicilio" />
+       <br/>
+       <br/>
+       <label for="txtColonia">Colonia</label><br/>
+       <input type="text" size="80" maxlength="50" id="txtColonia" name="Colonia" />
+       <br/>
+       <br/>
+       <label for="txtCodigoPostal">C&oacute;digo Postal</label><br/>
+       <input type="text" size="15" maxlength="50" id="txtCodigoPostal" name="CodigoPostal" />
+       <br/>
+       <br/>
+       <label for="txtPais">Pa&iacute;s</label><br/>
+       <select name="pais">
+        <option selected="selected"/></option>
+        <option>Alemania</option>
+        <option>Brasil</option>
+        <option>China</option>
+        <option>Estados Unidos</option>
+        <option>Inglaterra</option>
+        <option>Japon</option>
+        <option>Mexico</option>
+       </select>
+       <br/>
+       <br/>
+       <label for="txtRadio">Radio</label><br/>
+       <input type="text" size="40" maxlength="50" id="txtRadio" name="Radio" />
+       <br/>
+       <br/>
+       <label for="txtCorreoElectronico">Correo Electr&oacute;nico</label><br/>
+       <input type="text" size="80" maxlength="50" id="txtCorreoElectronico" name="CorreoElectronico" />
+       <br/>
+       <br/>
+       <label for="txtObservaciones">Observaciones</label><br/>
+       <input type="text" size="80" maxlength="50" id="Observaciones" name="Observaciones" />
+       <br/>
+    </fieldset>
+    </td>
+    </tr>
+    </table>
+    <div>
+    <div align="right">
+    <input type="button" name="Cancelar" value="Cancelar"/><align="right"/>
+    <input type="button" name="Agregar" value="Agregar"/>
+    </div>
+   </form>
+  </div>
+ </body>
+</html> 
